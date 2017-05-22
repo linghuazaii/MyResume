@@ -59,10 +59,10 @@
   - 以MultiMatch的方式搜索ES，title和content匹配赋不同的权重  
   
 - 分布式Http Downloader  
-  - 预想是做一个高性能的下载功能，为爬虫提供服务，稍微重构即可做线上的分布式图片处理服务器。  
-  - 整个项目分为两个模块：DownloadProxy和DownloadServer  
-  - 用libmicrohttpd做简易的HTTP Server，用libcurl做现在功能，根据官方文档，配置调到性能最优，禁用DNS，自己用Redis做全局的DNS cache  
-  - 用Zookeeper做服务发现和集群，Server动态刷新zk
+  - 预想是做一个高性能的下载功能，为爬虫提供服务，稍微重构即可做线上的分布式图片处理服务器  
+  - 整个项目分为两个模块：DownloadProxy和DownloadServer  
+  - 用libmicrohttpd做简易的HTTP Server，用libcurl做现在功能，根据官方文档，配置调到性能最优，禁用DNS，自己用Redis做全局的DNS cache  
+  - 用Zookeeper做服务发现和集群，Server动态刷新zk
   
   
   
