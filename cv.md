@@ -54,15 +54,18 @@
      + 日志系统更改：原先的日志系统，日志IO会阻塞业务，当日志量过大的时候，会影响QPS，新的日志系统采用异步设计，日志会先写到队列，一个工作在`SCHED_IDLE`模式的后台线程会将队列里的日志写到文件里去，最大限度的减小对系统性能的影响。示例代码见：[https://github.com/linghuazaii/Charles-Logging](https://github.com/linghuazaii/Charles-Logging). 
      + 日志系统更改：原先的日志系统，日志IO会阻塞业务，当日志量过大的时候，会影响QPS，新的日志系统采用异步设计，日志会先写到队列，一个工作在`SCHED_IDLE`模式的后台线程会将队列里的日志写到文件里去，最大限度的减小对系统性能的影响。示例代码见：[https://github.com/linghuazaii/Charles-Logging](https://github.com/linghuazaii/Charles-Logging)  
      
-- 新闻搜索的搭建  （python）  
-  - 以增量的方式将数据库的新闻Load到ElasticSearch，建crontab每日更新  
-  - 以MultiMatch的方式搜索ES，title和content匹配赋不同的权重  
+ - 新闻搜索的搭建  （python）  
+   - 以增量的方式将数据库的新闻Load到ElasticSearch，建crontab每日更新  
+   - 以MultiMatch的方式搜索ES，title和content匹配赋不同的权重  
   
-- 分布式Http Downloader  
-  - 预想是做一个高性能的下载功能，为爬虫提供服务，稍微重构即可做线上的分布式图片处理服务器  
-  - 整个项目分为两个模块：DownloadProxy和DownloadServer  
-  - 用libmicrohttpd做简易的HTTP Server，用libcurl做现在功能，根据官方文档，配置调到性能最优，禁用DNS，自己用Redis做全局的DNS cache  
-  - 用Zookeeper做服务发现和集群，Server动态刷新zk
+ - 分布式Http Downloader  
+   - 预想是做一个高性能的下载功能，为爬虫提供服务，稍微重构即可做线上的分布式图片处理服务器  
+   - 整个项目分为两个模块：DownloadProxy和DownloadServer  
+   - 用libmicrohttpd做简易的HTTP Server，用libcurl做现在功能，根据官方文档，配置调到性能最优，禁用DNS，自己用Redis做全局的DNS cache  
+   - 用Zookeeper做服务发现和集群，Server动态刷新zk更新自己的任务负载，Proxy可以根据Server复杂选择最优的Server分发请求  
+   - 各种对象池，提升性能  
+ 
+- 
   
   
   
