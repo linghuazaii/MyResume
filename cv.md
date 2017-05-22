@@ -51,5 +51,5 @@
    - 内存占用过高：推荐服务用两块内存来存储数据库里的新闻Item，没两分钟更新一次做指针置换，总计60000多条数据。推荐服务占用内存6G，远远超过预估值，问题出在`safe_strncpy`函数传递的Length不对，导致`strncpy`写整块内存，引发PAGE FAULT，进而PAGE SWAP，glibc所有的string函数都会`memset`整块内存。修复后，RES占用1.5G。  
    - 推荐服务耗时降低：  
      + 历史过滤优化：原先历史过滤N个Item，会一直在History_Map里查找是否存在历史，时间复杂度O(NlogM)。由于两个数据集合本身以续，采用增量比较的方式，时间复杂度O(N + M)。  
-     + 
+     + 日志系统更改：原先的日志系统，日志IO会阻塞业务，当日志量过大的时候，会影响QPS，新的日志系统采用异步设计，日志会先写到队列，一个工作在`SCHED_IDLE`模式的后台线程会将队列里的日志写到文件里去，最大限度的减小对系统性能的影响。示例代码见：[https://github.com/linghuazaii/Charles-Logging](https://github.com/linghuazaii/Charles-Logging)
 
