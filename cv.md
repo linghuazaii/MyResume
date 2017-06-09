@@ -79,7 +79,7 @@
    - 做了一个简易的工厂模式的架子，很容易扩充
 
  - 其他的一些杂项
-   - Bug啦，一些小feature啦，太多太琐碎，无法一一罗列
+   - Bug以及一些小feature，太多太琐碎，无法一一罗列
 
 #### Websense（韦伯森斯网络安全有限公司）
 Websense是一家致力于Cyber Security的安全公司，主要致力于Web Security，Data Security，Mobile Security和Mail Security，后被Raytheon 19亿美元收购。
@@ -90,7 +90,7 @@ Websense是一家致力于Cyber Security的安全公司，主要致力于Web Sec
 
 
 #### 杂项
- - 英语：CET-6，书写流利，口语虽然不专业但是可以交流，日常技术资料和数据纯英文，个人不喜欢翻译版本
+ - 英语：CET-6
  - 性格：偏内向，但是也比较容易相处
  - 爱好：骑行，拍拍东西，研究其他一些东西，但是都不深，时间有限
   
