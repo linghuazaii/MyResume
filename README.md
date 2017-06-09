@@ -7,3 +7,5 @@ Resume，update when needed!
    + using developer tools to edit as you like
    + print choose `Save as PDF`
    + Done!
+
+ - I have nothing to lose, don't judge ME!
