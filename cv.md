@@ -2,7 +2,7 @@
 ---
 **学历：统招一本**&emsp;&emsp;&emsp;&emsp;&emsp;**毕业院校:武汉科技大学**  
 
-**工作经验：两年**&emsp;&emsp;&emsp;&emsp;&emsp;**目前状态：骑驴找马**  
+**工作经验：两年**&emsp;&emsp;&emsp;&emsp;&emsp;**目前状态：在职**  
 
 **个人博客：[https://github.com/linghuazaii/blog](https://github.com/linghuazaii/blog)**  
 
@@ -81,12 +81,6 @@
  - 其他的一些杂项
    - Bug啦，一些小feature啦，太多太琐碎，无法一一罗列
 
-#### 间隔年
-**2015/5 - 2016/2 闲人**
- - 间隔年，裸辞后骑行川藏，虽因准备不足未能完成，静下来思考生活对于当时初入社会迷茫的我来说是很需要的
- - 读万卷书不如行万里路
- - 凡事想象的偏向美好，而现实往往五味杂陈，真因如此，生活才变得有所味道  
-
 #### Websense（韦伯森斯网络安全有限公司）
 Websense是一家致力于Cyber Security的安全公司，主要致力于Web Security，Data Security，Mobile Security和Mail Security，后被Raytheon 19亿美元收购。
 
@@ -99,6 +93,4 @@ Websense是一家致力于Cyber Security的安全公司，主要致力于Web Sec
  - 英语：CET-6，书写流利，口语虽然不专业但是可以交流，日常技术资料和数据纯英文，个人不喜欢翻译版本
  - 性格：偏内向，但是也比较容易相处
  - 爱好：骑行，拍拍东西，研究其他一些东西，但是都不深，时间有限
- - 你们996吗？我不赞同这种工作方式也～
-  
   
