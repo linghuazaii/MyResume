@@ -12,7 +12,7 @@
 
 **个人邮箱：[charlesliu.cn.bj@gmail.com](charlesliu.cn.bj@gmail.com)**
 
-**求职意向：中级软件开发工程师**  
+**求职意向：中高级软件开发工程师**  
 
 ### 技能树
 ---
@@ -20,16 +20,10 @@
  - TCP／IP，网络编程，高性能Server （熟悉）
  - Mutil-threading，concurrency （熟悉）
  - Python （熟悉）  
-   - Django （了解）
  - Http  （了解）
- - PHP  （了解）
- - 开源的项目（了解，看过文档，用过，可聊，但是无法深入到代码层面）：  
+ - 开源的项目（了解）：  
    - Memcached  
    - Kafka  
-   - Zookeeper  
-   - Redis  
-   - Hbase  
-   - Thrift
  - Web后端架构设计的一些思想  
    - 分布式    （了解）  
    - RPC      （了解）  
