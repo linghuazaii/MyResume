@@ -6,7 +6,7 @@
 
 **个人博客：[https://github.com/linghuazaii/blog](https://github.com/linghuazaii/blog)**  
 
-**个人GitHub: [https://github.com/linghuazaii?utf8=✓&tab=repositories&q=&type=source&language=](https://github.com/linghuazaii?utf8=✓&tab=repositories&q=&type=source&language=)**  
+**个人GitHub: [https://github.com/linghuazaii](https://github.com/linghuazaii)**  
 
 **联系方式：+86 15910693294**  
 
@@ -84,5 +84,3 @@ Websense是一家致力于Cyber Security的安全公司，主要致力于Web Sec
 
 #### 杂项
  - 英语：CET-6
- - 性格：偏内向，容易相处
- - 爱好：骑行，拍拍东西，研究其他一些东西 
