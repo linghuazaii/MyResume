@@ -24,10 +24,6 @@
  - 开源的项目（了解）：  
    - Memcached  
    - Kafka  
- - Web后端架构设计的一些思想  
-   - 分布式    （了解）  
-   - RPC      （了解）  
-   - 服务发现   (了解)
    
 ### 工作经历
 ---
@@ -70,9 +66,6 @@
    - Kafka Proxy的主要目的是为所有业务提供一个统一的HTTP接口，包括python的Django后端，Client端的Android和iOS以及C++版的推荐和相关新闻
    - 同样libmicrohttpd做简易的HTTP Server，解析HTTP包
    - 做了一个简易的工厂模式的架子，很容易扩充
-
- - 其他的一些杂项
-   - Bug以及一些小feature，太多太琐碎，无法一一罗列
 
 #### Websense（韦伯森斯网络安全有限公司）
 Websense是一家致力于Cyber Security的安全公司，主要致力于Web Security，Data Security，Mobile Security和Mail Security，后被Raytheon 19亿美元收购。
